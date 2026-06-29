@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Content-Based Recommendation System</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>📚 Book Recommendation System</h1>
+
+        <p class="subtitle">
+            Select your interests to get personalized book recommendations.
+        </p>
+
+        <form action="/recommend" method="POST">
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Fantasy">
+                Fantasy
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Adventure">
+                Adventure
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Mystery">
+                Mystery
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Romance">
+                Romance
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Sci-Fi">
+                Sci-Fi
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Horror">
+                Horror
+            </label>
+
+            <label>
+                <input type="checkbox"
+                       name="interests"
+                       value="Classic">
+                Classic
+            </label>
+
+            <button type="submit">
+                Recommend Books
+            </button>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>

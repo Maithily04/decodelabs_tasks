@@ -1,0 +1,150 @@
+/* ==========================================
+   Content-Based Recommendation System
+   style.css
+   Author: Maithily Bhatt
+========================================== */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#dbeafe,#bfdbfe,#93c5fd);
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Main Card */
+
+.container{
+    width:500px;
+    background:white;
+    padding:35px;
+    border-radius:18px;
+    box-shadow:0px 8px 25px rgba(0,0,0,0.2);
+}
+
+h1{
+    text-align:center;
+    color:#1e3a8a;
+    margin-bottom:10px;
+}
+
+.subtitle{
+    text-align:center;
+    color:#555;
+    margin-bottom:30px;
+}
+
+/* Form */
+
+form{
+    display:flex;
+    flex-direction:column;
+}
+
+label{
+    margin-bottom:15px;
+    font-size:18px;
+    cursor:pointer;
+    color:#333;
+}
+
+input[type="checkbox"]{
+    transform:scale(1.3);
+    margin-right:10px;
+}
+
+/* Button */
+
+button{
+    margin-top:25px;
+    padding:14px;
+    border:none;
+    border-radius:10px;
+    background:#2563eb;
+    color:white;
+    font-size:18px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:scale(1.03);
+}
+
+/* Result Box */
+
+.result{
+    margin-top:30px;
+}
+
+.result h2{
+    color:#1e40af;
+    margin-bottom:20px;
+    text-align:center;
+}
+
+.result ul{
+    list-style:none;
+}
+
+.result li{
+    background:#eff6ff;
+    margin-bottom:12px;
+    padding:14px;
+    border-left:6px solid #2563eb;
+    border-radius:8px;
+    font-size:18px;
+}
+
+/* Back Button */
+
+a{
+    display:block;
+    margin-top:30px;
+    text-align:center;
+    text-decoration:none;
+    background:#16a34a;
+    color:white;
+    padding:12px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+a:hover{
+    background:#15803d;
+}
+
+/* Responsive */
+
+@media(max-width:600px){
+
+.container{
+    width:90%;
+    padding:25px;
+}
+
+h1{
+    font-size:28px;
+}
+
+button{
+    font-size:16px;
+}
+
+label{
+    font-size:16px;
+}
+
+.result li{
+    font-size:16px;
+}
+
+}

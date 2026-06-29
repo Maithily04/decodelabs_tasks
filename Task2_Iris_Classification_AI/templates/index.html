@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Iris Flower Classification</title>
+
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+
+<body>
+
+    <div class="container">
+
+        <h1>🌸 Iris Flower Classification</h1>
+
+        <p class="subtitle">
+            Predict the species of an Iris flower using AI.
+        </p>
+
+        <form action="/predict" method="POST">
+
+            <label>Sepal Length (cm)</label>
+            <input
+                type="number"
+                name="sepal_length"
+                step="0.1"
+                placeholder="Example: 5.1"
+                required>
+
+            <label>Sepal Width (cm)</label>
+            <input
+                type="number"
+                name="sepal_width"
+                step="0.1"
+                placeholder="Example: 3.5"
+                required>
+
+            <label>Petal Length (cm)</label>
+            <input
+                type="number"
+                name="petal_length"
+                step="0.1"
+                placeholder="Example: 1.4"
+                required>
+
+            <label>Petal Width (cm)</label>
+            <input
+                type="number"
+                name="petal_width"
+                step="0.1"
+                placeholder="Example: 0.2"
+                required>
+
+            <button type="submit">Predict Flower</button>
+
+        </form>
+
+        {% if prediction %}
+
+        <div class="result">
+            🌼 Prediction: <br><br>
+            {{ prediction }}
+        </div>
+
+        {% endif %}
+
+        <div class="footer">
+            Made with using Flask & Scikit-Learn
+        </div>
+
+    </div>
+
+</body>
+
+</html>

@@ -1,0 +1,11 @@
+# ChatGPT Clone
+# Python 3.10+
+
+# This project uses only Python standard libraries:
+# tkinter
+# json
+# datetime
+# random
+# os
+
+# No external packages are required.

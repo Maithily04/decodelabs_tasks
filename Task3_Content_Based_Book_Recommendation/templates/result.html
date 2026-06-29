@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Recommended Books</title>
+
+    <link rel="stylesheet"
+          href="{{ url_for('static', filename='style.css') }}">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="result">
+
+            <h2>📚 Recommended Books</h2>
+
+            {% if recommendations %}
+
+                <ul>
+
+                    {% for book in recommendations %}
+
+                        <li>
+                            ⭐ {{ book }}
+                        </li>
+
+                    {% endfor %}
+
+                </ul>
+
+            {% else %}
+
+                <p style="text-align:center; font-size:18px; color:red;">
+                    ❌ No books found for the selected interests.
+                </p>
+
+            {% endif %}
+
+            <a href="/">
+                ⬅ Back to Home
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+
+</html>
