@@ -1,89 +1,74 @@
 # decodelabs_tasks
 Artificial Intelligence internship projects using Python, Machine Learning, and Data Classification.
 
-# Task1: 🤖 DecodeBot - Rule-Based AI Chatbot
+# 🚀 Decode Labs AI Internship Tasks
 
-## 📌 Project Overview
+Welcome to my **Decode Labs AI Internship** repository. This repository contains the projects completed as part of the internship, showcasing my understanding of **Python, Artificial Intelligence, Machine Learning, and Flask Web Development**.
 
-DecodeBot is a simple rule-based Artificial Intelligence chatbot developed using Python. The chatbot responds to user queries using predefined rules and conditional logic without requiring any machine learning model.
-
-This project demonstrates the fundamentals of conversational AI, control flow, decision making, and user interaction.
+Each task focuses on solving a different AI-related problem while strengthening practical programming and problem-solving skills.
 
 ---
 
-## ✨ Features
+## 👩‍💻 Author
 
-- Interactive command-line chatbot
-- Predefined responses
-- Handles greetings and common questions
-- Continuous conversation until user exits
-- Simple and beginner-friendly implementation
+**Maithily Bhatt**
 
----
+🎓 B.Tech Computer Science & Engineering
 
-## 🛠️ Technologies Used
-
-- Python 3
-- VS Code
-- Git & GitHub
+💻 Python | AI/ML | Flask | Git & GitHub
 
 ---
 
-## 📂 Project Structure
+# 📂 Repository Structure
 
-Task1_Rule_Based_AI_Chatbot/
-│── chatbot.py
-│── utils.py
-│── chat_history.py
-│── gui.py
-│── main.py
-│── requirements.txt
+```
+decodelabs_tasks
+│
+├── Task1_rule_based_AI_chatbot
+│   └── Decodebot
+│
+├── Task2_Iris_Classification_AI
+│
+├── Task3_Content_Based_Book_Recommendation
+│
 └── README.md
+```
 
 ---
 
-## ▶️ How to Run
+# 📌 Projects
 
-1. Clone the repository
+## 🤖 Task 1 – Rule-Based AI Chatbot
 
-```bash
-git clone <>
+A beginner-friendly AI chatbot developed using Python that responds to user queries using predefined rules and conditional logic.
 
+### Features
 
----
+- Rule-based conversation
+- Interactive GUI
+- Chat history
+- Simple and easy to use
 
-# 📁 Task 2 — Iris Flower Classification using Machine Learning
+### Technologies
 
-```markdown
-# 🌸 Iris Flower Classification System
-
-## 📌 Project Overview
-
-This project is a Machine Learning classification model that predicts the species of an Iris flower using its sepal and petal measurements.
-
-The model is trained on the famous Iris dataset using Scikit-learn and deployed through a simple Flask web application.
+- Python
+- Tkinter
+- JSON
 
 ---
 
-## ✨ Features
+## 🌸 Task 2 – Iris Flower Classification
 
-- Predicts Iris flower species
-- User-friendly Flask web interface
-- Trained using Scikit-learn
-- Input validation
-- Fast and accurate predictions
+A Machine Learning application that predicts the species of an Iris flower using sepal and petal measurements. The model is trained using Scikit-learn and deployed with Flask.
 
----
+### Features
 
-## 🌼 Classes Predicted
+- Machine Learning prediction
+- Flask web application
+- User-friendly interface
+- Real-time prediction
 
-- Iris Setosa
-- Iris Versicolor
-- Iris Virginica
-
----
-
-## 🛠️ Technologies Used
+### Technologies
 
 - Python
 - Flask
@@ -95,79 +80,117 @@ The model is trained on the famous Iris dataset using Scikit-learn and deployed 
 
 ---
 
-## 📂 Project Structure
+## 📚 Task 3 – Content-Based Book Recommendation System
 
-Task2_Iris_Classification_AI/
-│── app.py
-│── train.py
-│── utils.py
-│── iris_model.pkl
-│── requirements.txt
-│── templates/
-│── static/
-└── README.md
+A recommendation system that suggests books based on user preferences using a content-based filtering approach.
 
----
+### Features
 
-## ▶️ How to Run
+- Personalized book recommendations
+- Content-based filtering
+- Flask web application
+- Simple and responsive interface
 
-Install dependencies
-
-```bash
-pip install -r requirements.txt
-
-
----
-
-# 📁 Task 3 — AI-Based Course Recommendation System
-
-```markdown
-# 🎓 AI-Based Course Recommendation System
-
-## 📌 Project Overview
-
-This project is an AI-powered recommendation system that suggests suitable courses based on a user's interests, preferred domain, and skill level.
-
-The recommendation engine uses rule-based filtering to generate personalized learning recommendations.
-
----
-
-## ✨ Features
-
-- Personalized course recommendations
-- Interest-based suggestions
-- Skill-level filtering
-- Beginner-friendly interface
-- Instant recommendations
-
----
-
-## 🛠️ Technologies Used
+### Technologies
 
 - Python
 - Flask
+- Pandas
 - HTML
 - CSS
-- JavaScript
 
 ---
 
-## 📂 Project Structure
+# 🛠️ Tech Stack
 
-Task3_AI_Recommendation_System/
-│── app.py
-│── recommender.py
-│── dataset.csv
-│── requirements.txt
-│── templates/
-│── static/
-└── README.md
+- Python
+- Flask
+- Scikit-learn
+- Pandas
+- NumPy
+- Tkinter
+- HTML
+- CSS
+- Git
+- GitHub
 
 ---
 
-## ▶️ How to Run
+# ▶️ Getting Started
 
-Install dependencies
+### Clone the Repository
+
+```bash
+git clone https://github.com/Maithily04/decodelabs_tasks.git
+```
+
+### Move into the repository
+
+```bash
+cd decodelabs_tasks
+```
+
+### Open any task folder
+
+Example:
+
+```bash
+cd Task2_Iris_Classification_AI
+```
+
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
+```
+
+### Run the Project
+
+For Task 1
+
+```bash
+python main.py
+```
+
+For Task 2
+
+```bash
+python app.py
+```
+
+For Task 3
+
+```bash
+python app.py
+```
+
+---
+
+# 🎯 Learning Outcomes
+
+Through these projects, I gained hands-on experience in:
+
+- Python Programming
+- Artificial Intelligence Fundamentals
+- Machine Learning
+- Recommendation Systems
+- Flask Web Development
+- GUI Development
+- Git & GitHub Version Control
+- Problem Solving
+
+---
+
+# 📸 Project Screenshots
+
+Each project contains a **Screenshots** folder showcasing the application's user interface and functionality.
+
+---
+
+# 📄 License
+
+This repository is created for educational and internship purposes under the **Decode Labs AI Internship Program**.
+
+---
+
+## ⭐ If you found this repository helpful, don't forget to star it!
